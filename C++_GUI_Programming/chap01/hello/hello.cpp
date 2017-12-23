@@ -9,6 +9,6 @@ int main(int argc, char *argv[])
     QLabel *label = new QLabel("Hello Qt!");
     //显示 QLabel。
     label->show();
-    //：QApplication.exec()，让程序进入消息循环。
+    //QApplication.exec()，让程序进入消息循环。
     return app.exec();
 }
